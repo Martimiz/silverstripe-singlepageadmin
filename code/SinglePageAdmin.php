@@ -10,7 +10,7 @@ class SinglePageAdmin extends LeftAndMain implements PermissionProvider
 {
 
     private static $url_rule = '/$Action/$ID/$OtherID';
-    private static $menu_icon = 'silverstripe-singlepageadmin/images/singlepageadmin.png';
+    private static $menu_icon = 'singlepageadmin/images/singlepageadmin.png';
 
     private static $allowed_actions = array(
         'EditForm'
